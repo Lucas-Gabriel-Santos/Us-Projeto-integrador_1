@@ -1,0 +1,19 @@
+.mi h1{
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  margin-top: 100px;
+  margin-left: 570px;
+}
+
+.mi p{
+  position: absolute;
+  font-family: Khula, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 70px;
+  margin-left: 400px;
+  text-align: center;
+}

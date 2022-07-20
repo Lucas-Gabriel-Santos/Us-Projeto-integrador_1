@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Us - 
+    {% block titulo%}
+    {% endblock %}
+  </title>
+  <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <section class="nav-sec">
+      <nav>
+        <img src="/static/imgs/GIGANTE.png" class="logoo" alt="logo">
+        <ul class="nav-lista">
+          <li>
+      		  <a class="nav-link" href="/">Página Inicial </a>
+          </li>
+          <li>
+      		  <a class="nav-link" href="/quem_somos">Quem somos nós?</a>
+          </li>
+          <li>
+      		  <a class="nav-link" href="/missao">Missão</a>
+          </li>
+          <li>
+      		  <a class="nav-link" href="/login">Login</a>
+          </li>
+        </ul>
+    	</nav>
+    </section>
+  </header>
+  
+  <main>
+    {% block conteúdos %}
+    {% endblock %} 
+  </main>
+  
+  <!--<footer>
+    <h5>Desenvolvido por: Ana Luiza, Jennif Anjos e Lucas Gabriel</h5>
+  </footer>-->
+  
+</body>
+</html>

@@ -1,0 +1,186 @@
+/* fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Khula, sans-serif;
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background: #cbd2d2
+}
+
+a {
+  color: #fdf974;
+  text-decoration: none;
+  transition: 0.3s
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+.logo{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  padding-top: 8px;
+
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  alien-items: center;
+  height: 60px;
+  background: #6884BB;
+}
+
+.logoo{
+  width: 50px;
+  height: 50px;
+  margin-left: -170px;
+  margin-top: 5px;
+}
+
+.nav-lista {
+  list-style: none;
+  display: flex;
+}
+
+.nav-lista li{
+  letter-spacing: 3px;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-family: Khula, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.pagini h1{
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+.pagini p{
+  font-family: Khula, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+.pagini > figure img{
+  position: absolute;
+  left:
+  width: 100px;
+  height: 100px;
+}
+
+/* Quem somos */
+.Quem{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 60px;
+}
+
+.Quem h3{
+    position: absolute;
+    width: 345px;
+    height: 94px;
+    left: 470px;
+    top: 50px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+.Box{
+    display: inline;
+}
+
+.Box1{
+    position: relative;
+    width: 315px;
+    height: 404px;
+    left: 105px;
+    top: 180px;
+    background: #6884BB ;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 53px;
+    transition: 0.5s ease-in-out;
+}
+
+.Box1 img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 120px;
+    top: 30px;
+}
+.Box1 h6{
+    position: absolute;
+    height: 34px;
+    left: 105px;
+    top: 110px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3E3E3E;
+}
+
+.Box1 p{
+    position: absolute;
+    width: 283px;
+    height: 108px;
+    left: 15px;
+    top: 170px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+}
+
+.Box1:hover{
+    transform: translateY(-35px);
+    background: #FAFAFA;
+    box-shadow: 0px 16px 64px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.Box1 figure img{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin-left: 25px;
+    margin-top: 295px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    text-align: center ;
+    opacity: 0.4;
+}

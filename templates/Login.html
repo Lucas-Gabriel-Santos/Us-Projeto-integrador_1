@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+Login
+{% endblock %}
+
+{% block conteúdos %}
+<link href="/static/css/login.css" rel="stylesheet" type="text/css" />
+<section class="sec-login">
+  <form class="form-login">
+    <h2>Como deseja se cadastrar?</h2>
+    <label>
+      <input type="radio" name="voce" value="universitario" checked>Universitario
+    </label>
+    <label>
+      <input type="radio" name="voce" value="escola">Escola
+    </label>
+    <label>
+      <input type="radio" name="voce" value="aluno">Aluno
+    </label>
+    <input type="submit" value="Entrar">
+  </form>
+</section>
+{% endblock %}
+  
